@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница 1</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/home_works.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="../index.html">
+                    <div class="logotype">
+                        <h2>Главная</h2>
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="../pages/home_works.html">Страница 1</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/lessons.html">Страница 2</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="https://t.me/dosya08" target="_blank">Связаться со мной</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Click me!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="gmail_block">
+        <div class="container">
+            <h3>Оставьте свой Gmail</h3>
+            <div class="inner_gmail_block">
+                <div class="form_gmail">
+                    <label for="gmail_input"></label>
+                    <input type="text" id="gmail_input" placeholder="your gmail">
+                    <button class="btn" id="gmail_button">Check gmail</button>
+                    <span class="checker" id="gmail_result"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="move_block">
+        <div class="container">
+            <div class="inner_move_block">
+                <div class="parent_block">
+                    <div class="child_block"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABFFBMVEVHcEwcJ2zdCRabmpu8vb2dmpqpmJmRamy7vLwkO43Hzc1TJ1+gAAXPiYuPAAC7oKC+vb3g4OI9VJ6tkpOopaR9IySnOjydnJ3X1tbQz8/o5uMiQZ3p6Oju7e13hLWYmKH///8jRqogQaCXl5nu7u/W1tienp/c3d7l5ebz8/Ph4eK3trjIyMm4ubunpqj5+fnDw8Tp6erOzs8jRaaur7GXAACpq6+NjY/R0tO0s7W0AwW/vsAdMn8iQZIeLnOko6R4hrSDg4ZlaXvLBAaKBgemAgMFHG91doAAFF4ACEvEhomxXF9ZbKeuFhhKUXECLpY0TYDev8DHp6gjL1kAEzx+SkvMNjuNMzPEvr+jSUqBh5udpL1eZW5rAAAAIHRSTlMAssrWk5MQ/HCPLDR0b4/7qZBsqZ3S/erawML3K22lQoh4zN0AAAHsSURBVCiRZdLnetowGAVgtQwzmmY03cuWLUtYFngPjINtKDtAs7ru/z4qmVDS5Pz8Xp/nsaQPgH9pnzWbX04/fwJP0/wIoeu6K4Pg00d0BktSMrvX0Yhx9NA+ZJzgZpMRWeaqfX9+sHf4z2ay/R0kVJYf63sHo0ATc2LsdXGvDcvEltwTY9mSd2rjuxclJsxhWqfT63EnuESN4EVfWNWLncS2tdJls6xqBouuXnKMhyzABiGcNU1WB6uMEQ15BB8D0ArC5QJjbJSOZlBRFDcLbANFLdAIL0d3OEJIeGedKiIw0wzkNMB5fzQa/YwczogEE9FTXLjiTacKXn3r90dLZJqOg8g1LIsuTDGOzBOOXPvUYjRm+UTZoxmZyQmo+T7npccsx47ncGcwZWZCq6Ax9n3/8kqcpCMXM7c0mNKExkeg9UOgFSF+Vq13fVHa4ILS4LgNgMSrvyzLFP9LjJsBTAezwol19kZc3+3YlxhlCf/AxNHNfL6mKPECSVxf3ctvJY8nppQxxwpNZMXBUB/XyyfrxnrYvQ/VzUSQLu2eDFR0Lw/1XYLQ63JS1df7VXirBnmulgmHXUGqdFiiitrNi+l0WhTToaCw8nD9aupwmw5ECk5h7f/FrZ9vL8pM1mqt/nTn281nPM2vh8lfXvRqxETiWOcAAAAASUVORK5CYII="></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stopwatch">
+        <div class="container">
+            <h3>Секундомер</h3>
+            <div class="time">
+                <div class="time_block">
+                    <div class="interval" id="seconds">0</div>
+                </div>
+            </div>
+            <div class="time_buttons">
+                <button class="btn" id="start">Start</button>
+                <button class="btn" id="stop">Stop</button>
+                <button class="btn" id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <a href="https://www.instagram.com/dossssya/" target="_blank">
+                <div class="inner_footer">
+                    <h2>Made by Dosya</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&times;</div>
+                <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
+                <input required placeholder="Ваше имя" name="name" type="text" class="modal_input">
+                <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal_input">
+                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="../js/home_works.js"></script>
+<script src="../js/modal.js"></script>
+</html>
